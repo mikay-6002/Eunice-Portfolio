@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', 'sans-serif'
+}
+
+html{
+    font-size: 65%
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color:#526d82;
+    color: white; 
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo img{
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+nav a{
+    font-size: 2rem;
+    color: white;
+    margin-left: 3rem;
+    font-weight: 500;
+    transition: color 0.3 ease, border-bottom 0.3 ease;
+}
+
+nav a:hover,
+nav a:active{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 1;
+    right: 3%;
+    width: auto;
+    background-color: #526d82;
+}
+
+nav.active{
+    display: block;
+}
+
+nav a{
+    font-size: 3rem;
+    margin: 3rem;
+}
+
+nav a:hover
+nav a.active{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid black;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    background-color: #526d82;
+    height: 100vh;
+    padding: 0.5rem;
+    
+}
+
+.home-content{
+    flex: 1;
+    text-align: right;
+     justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+    padding-right: 10rem;
+}
+
+.home .home-content h1{
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.home .home-content h3{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.home-img{
+    position: absolute;
+    bottom: 0;
+    left: 1;
+    width: 60%;
+    height: auto;
+    z-index: 1;
+}
+
+.home-img img{
+    width: 50%;
+    object-fit: cover;
+}
+
+
+

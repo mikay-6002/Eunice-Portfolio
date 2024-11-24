@@ -1,0 +1,26 @@
+body{
+    background-color: #526d82;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50ox;
+}
+
+#fs{
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#black{
+    font-family: Arial;
+    color: black;
+}
